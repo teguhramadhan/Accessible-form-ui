@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accesible Form UI</title>
+    <link rel="stylesheet" href="assets/style.css" />
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css " />
+  </head>
+  <body>
+    <div class="card-profile">
+      <div class="row">
+        <div class="column">
+          <h5>Full Name</h5>
+          <input type="text" class="textfield_default" placeholder="What should we call you?" />
+          <h5>Email</h5>
+          <input type="text" class="textfield_default textfield_danger" value="john@doe.com" />
+          <p class="info_danger">Email is already taken</p>
+          <h5>Password</h5>
+          <input type="password" class="textfield_default" placeholder="XXXXXXXX" />
+          <h5>Confirm Password</h5>
+          <input type="password" class="textfield_default" placeholder="XXXXXXXX" />
+          <a class="btn-primary" href="#">Update Profile</a>
+        </div>
+        <div class="column">
+          <div class="progres">
+            <div class="progress-bar">
+              <progress value="65" min="0" max="100" style="visibility: hidden; height: 0; width: 0">75%</progress>
+            </div>
+          </div>
+          <h5 class="title-profile">Profile Completeness</h5>
+          <div class="card-progres">
+            <ul>
+              <li class="list list-done">Create Account</li>
+              <li class="list list-done">Update Roadmap progress</li>
+              <li class="list list-done">Setup Public Profile</li>
+              <li class="list">Complete your first Project</li>
+              <li class="list">Invite your Friend</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
